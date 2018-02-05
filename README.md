@@ -1,8 +1,7 @@
-#README
-
 ## 絵文字付きツイート感情分析
 
-'''
+```
+
 1. python get_data.py 1 30 (1~6まで繰り返す)
 2. python uniq.py {FILE_NAME} (同じツイートを削除し, 精度を高める)
 3. cd test_data
@@ -19,16 +18,17 @@ __label__5.txt __label__6.txt > model.txt
 
 `fasttext test prod_models/model.bin test_data/test.txt`
 
-'''
 
-##基本設定
+```
+
+## 基本設定
 1. Twitter Apps(apps.twitter.com)より, アプリケーションを作成し, Keys and  Access Tokensを取得する。
 2. get_data.pyのCK,CS,AT,ASに1の取得したものを入力
 
 ## ライブラリ
 使用したライブラリをインストールしてください
 
-###基本ライブラリ
+### 基本ライブラリ
 - numpy
 - scipy
 - sys
@@ -36,16 +36,16 @@ __label__5.txt __label__6.txt > model.txt
 - json
 - re
 
-###ベクトル化及び学習
+### ベクトル化及び学習
 - fastText(https://github.com/facebookresearch/fastText)
 
-###日本語形態素解析
+### 日本語形態素解析
 - mecab-python3(https://pypi.python.org/pypi/mecab-python3)
 
-###Twitter API
+### Twitter API
 - requests_oauthlib(https://github.com/requests/requests-oauthlib)
 
-###絵文字
+### 絵文字
 emoji(https://pypi.python.org/pypi/emoji/)
 
 
