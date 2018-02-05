@@ -46,6 +46,6 @@ __label__5.txt __label__6.txt > model.txt
 - requests_oauthlib(https://github.com/requests/requests-oauthlib)
 
 ### 絵文字
-emoji(https://pypi.python.org/pypi/emoji/)
+- emoji(https://pypi.python.org/pypi/emoji/)
 
 
